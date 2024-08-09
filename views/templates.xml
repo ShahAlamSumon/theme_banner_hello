@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+    <template id="banner_hello_world" inherit_id="website.homepage" priority="101" active="True">
+        <xpath expr="//t[@t-set='pageName']" position="before">
+            <div class="oe_hello_world_banner">
+                <p>Hello World</p>
+            </div>
+        </xpath>
+    </template>
+</odoo>
